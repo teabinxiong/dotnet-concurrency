@@ -20,7 +20,7 @@ namespace DotNET.Concurrency.AsyncSample.Problems
      * 
      * */
 
-    public sealed class PausingForAPeriodOfTimeSolution
+    public sealed class PausingForAPeriodOfTime
     {
         public async Task<T> DelayResult<T>(T result, TimeSpan delay)
         {
