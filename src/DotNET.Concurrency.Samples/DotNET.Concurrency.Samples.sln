@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNET.Concurrency.AsyncSample", "DotNET.Concurrency.AsyncSample\DotNET.Concurrency.AsyncSample.csproj", "{6B0F648B-6D45-4586-865C-E151F11D166D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNET.Concurrency.AsyncSample", "DotNET.Concurrency.AsyncSample\DotNET.Concurrency.AsyncSample.csproj", "{6B0F648B-6D45-4586-865C-E151F11D166D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNET.Concurrency.AsynchronousStreamsSample", "DotNET.Concurrency.AsynchronousStreamsSample\DotNET.Concurrency.AsynchronousStreamsSample.csproj", "{11307FA5-39A9-4A55-BB49-4ED13A417879}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{6B0F648B-6D45-4586-865C-E151F11D166D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B0F648B-6D45-4586-865C-E151F11D166D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B0F648B-6D45-4586-865C-E151F11D166D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11307FA5-39A9-4A55-BB49-4ED13A417879}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11307FA5-39A9-4A55-BB49-4ED13A417879}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11307FA5-39A9-4A55-BB49-4ED13A417879}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11307FA5-39A9-4A55-BB49-4ED13A417879}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
